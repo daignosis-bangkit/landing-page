@@ -1,0 +1,83 @@
+.section-one {
+  height: 91vh;
+}
+
+.section-one .col-md-7 {
+  height: 91vh;
+  position: relative;
+}
+
+.section-one .intro {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.section-one .intro button,
+.section-three button {
+  background-color: #3e7a9c;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+}
+
+.section-two {
+  padding: 0 10px;
+}
+
+.section-two .row .col-md-4 {
+  background: rgba(238, 238, 238, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 30px;
+  text-align: center;
+}
+
+.section-two .head .col-md-4 span {
+  font-size: 20px;
+}
+
+.section-two .head .col-md-4 span i {
+  margin-right: 7px;
+}
+
+.section-two .body {
+  margin-top: 20px;
+}
+
+.section-separator {
+  width: 100%;
+  background-color: #99d98c;
+}
+
+.section-three {
+  padding: 15px;
+}
+
+.section-three .row img {
+  width: 100%;
+  height: auto;
+  margin-left: 30px;
+}
+
+.section-three .steps .number {
+  color: #3e7a9c;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-one {
+    height: fit-content;
+  }
+
+  .section-one .intro {
+    margin: -100px 0;
+  }
+}

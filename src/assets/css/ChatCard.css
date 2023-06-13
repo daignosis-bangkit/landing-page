@@ -1,0 +1,58 @@
+.card {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 20px;
+}
+
+.card .dialog .row .bubble {
+  padding: 15px;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.card .user .row .bubble {
+  background: #63997f;
+  right: 0;
+  z-index: 1;
+  border-radius: 20px 0 20px 20px;
+}
+
+.card .bot .row .bubble {
+  background: #3e7a9c;
+  border-radius: 20px 20px 20px 0;
+}
+
+.card .dialog .row .bubble span {
+  background: rgba(238, 238, 238, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0 60px;
+  margin-left: 7px;
+  margin-right: 2px;
+}
+
+.card .input {
+  width: 100%;
+  border: none;
+  margin-top: 15px;
+  padding: 15px 20px;
+  transition: 0.5s;
+  background: rgba(238, 238, 238, 0.45);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.card .input div {
+  border-right: 2px solid orange;
+  width: fit-content;
+  padding-right: 3px;
+  animation: typing 500ms steps(44) infinite normal;
+}
+
+@keyframes typing{
+  from{border-right-color: orange}
+  to{border-right-color: transparent;}
+}

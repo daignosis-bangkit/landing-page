@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/body-layered.svg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
+input,
+input:focus,
+input:hover,
+button,
+button:hover,
+button:active,
+button:focus,
+textarea:focus,
+textarea:hover,
+textarea {
+  box-shadow: none !important;
+  outline: none !important;
+  resize: none !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.anti-block {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.daignosis{
+  width: 50px;
+  height: auto;
+}
+
+.title {
+  font-family: PoppinsBold;
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-size: 350%;
+  }
+}
