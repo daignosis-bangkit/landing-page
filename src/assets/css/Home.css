@@ -15,7 +15,7 @@
   transform: translateY(-50%);
 }
 
-.section-one .intro button,
+.section-one .intro .btn,
 .section-three button {
   background-color: #3e7a9c;
   color: #fff;

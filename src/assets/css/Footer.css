@@ -1,0 +1,38 @@
+.footer {
+  padding: 30px 0;
+  background: #3e7a9c;
+}
+.footer .left img {
+  height: 60px;
+  width: auto;
+}
+
+.footer .right {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: right;
+}
+
+.footer .right ul {
+  list-style-type: none;
+  margin: 0;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer hr {
+  border-color: #fff;
+}
+
+@media only screen and (max-width: 425px) {
+  .footer .left {
+    text-align: center;
+  }
+
+  .footer .right {
+    text-align: center;
+    margin-left: -15px;
+    margin-top: 30px;
+  }
+}

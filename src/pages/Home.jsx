@@ -7,8 +7,6 @@ import "../assets/css/Home.css";
 import ChatMockUp from "../assets/img/chat.png";
 
 class Home extends React.Component {
-  state = {};
-
   render() {
     return (
         <div className="container">
@@ -22,11 +20,11 @@ class Home extends React.Component {
                     <span className="text-primary">.</span>
                   </h1>
                   <h5 className="text-secondary mb-3">
-                    Dengan Daignosis, Anda dapat menjawab pertanyaan-pertanyaan
-                    tentang gejala yang Anda alami dan menerima saran diagnosis
+                    Dengan Daignosis, Kamu dapat menjawab pertanyaan-pertanyaan
+                    tentang gejala yang Kamu alami dan menerima saran diagnosis
                     yang dapat dipercaya dalam hitungan detik.
                   </h5>
-                  <button className="btn rounded">Coba Sekarang</button>
+                  <a href="#fitur" className="btn rounded">Coba Sekarang</a>
                 </div>
               </div>
               <div className="col-md-5">
@@ -100,10 +98,10 @@ class Home extends React.Component {
                 <div className="col-md-6 mb-5">
                   <div className="title number d-inline">2</div>
                   <h4 className="title d-inline">
-                    Masukkan keluhan dan gejala yang kamu alami
+                    Masukkan keluhan dan gejala yang Kamu alami
                   </h4>
                   <span className="d-block mt-3">
-                    Masukkan keluhan dan gejala yang kamu alami secara detail
+                    Masukkan keluhan dan gejala yang Kamu alami secara detail
                     menggunakan bahasa Inggris. Namun, dapat menggunakan bahasa
                     Indonesia maupun Inggris.
                   </span>
@@ -111,7 +109,7 @@ class Home extends React.Component {
                 <div className="col-md-6 mb-5">
                   <div className="title number d-inline">3</div>
                   <h4 className="title d-inline">
-                    Dapatkan jawaban dari keluhan kamu dengan cepat
+                    Dapatkan jawaban dari keluhan Kamu dengan cepat
                   </h4>
                   <span className="d-block mt-3">
                     Kamu akan dapat hasil diagnosa dari{" "}
@@ -121,13 +119,15 @@ class Home extends React.Component {
                 </div>
                 <div className="col-md-6 mb-5">
                   <div className="title number d-inline">#</div>
-                  <h4 className="title d-inline">Coba Sekarang</h4>
+                  <h4 className="title d-inline">Coba sekarang</h4>
                   <span className="d-block mt-3">
                     Coba <i>prototype</i> aplikasi kami. Kamu bisa mengunduhnya{" "}
                     <a
                       className="text-primary"
-                      href="#"
+                      href="https://storage.googleapis.com/lukaku_uploaded/apk/Daignosis.apk"
                       alt="Dapatkan Daignosis"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       disini
                     </a>

@@ -5,8 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Daignosis from "../assets/img/daignosis.png";
 
 class Header extends React.Component {
-  state = {};
-
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="" variant="light">
@@ -14,7 +12,7 @@ class Header extends React.Component {
           <Navbar.Brand href="/" className="mt-2">
             <img src={Daignosis} alt="Daignosis" class="daignosis" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" className="border-0" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
